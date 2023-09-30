@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+aside {
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 200px;
+}
+
+#forecast {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    float: left;
+    padding-left: 100px;
+}
+
+.forecast-card {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#search-history li {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-history li:hover {
+    background-color: #f0f0f0;
+}
